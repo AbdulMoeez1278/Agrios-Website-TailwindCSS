@@ -8,10 +8,16 @@
     <link href="../src/output.css" rel="stylesheet">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../public/assets/images/logo.svg" type="image/x-icon">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Covered+By+Your+Grace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
+<body class="font-manrope scroll-smooth">
     <header>
         <nav>
             <!-- container section start  -->
@@ -112,12 +118,14 @@
                 <!-- first header end here  -->
 
                 <!-- second header start here  -->
-                <div class="flex w-full justify-between items-center mt-[30px]">
+                <div class="flex w-full justify-between items-center mt-[20px]">
+                    <!-- nav items start  -->
                     <div class="w-[80%] justify-between items-center">
                         <ul class="flex flex-1 items-center list-none justify-between">
+                            <!-- home li start -->
                             <li class="relative group">
                                 <a href="/"
-                                    class="flex items-center text-base font-bold hover:text-black "><span>Home</span>
+                                    class="flex gap-[5px] items-center text-base font-bold hover:text-black active:font-extrabold"><span>Home</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 6"
                                         fill="none">
                                         <path
@@ -126,36 +134,39 @@
                                     </svg>
                                 </a>
                                 <div
-                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] translate(-15% 0) rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
+                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] -translate-x-4 rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
                                     <!-- <div class="dropdownColumn"> -->
                                     <ul class="group flex-col list-none">
-                                        <li class=" py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class=" py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/home2.html">Home
                                                 2</a></li>
                                         <li class="dropdownItems py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                                class="text-black hover:text-[#edc044] font-bold"
                                                 href="/home3.html">Home 3</a>
                                         </li>
                                         <li class="dropdownItems py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                                class="text-black hover:text-[#edc044] font-bold"
                                                 href="/home4.html">Home 4</span>
                                         </li>
                                         <li class="dropdownItems py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                                class="text-black hover:text-[#edc044] font-bold"
                                                 href="/home5.html">Home 5</a>
                                         </li>
                                         <li class="dropdownItems py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                                class="text-black hover:text-[#edc044] font-bold"
                                                 href="/home6.html">Home 6</a>
                                         </li>
                                     </ul>
                                     <!-- </div> -->
                                 </div>
                             </li>
+                            <!-- home li end  -->
+                            <!-- about li start  -->
                             <li><a href="/about.html">About</a></li>
+                            <!-- about li end  -->
+                            <!-- services li start  -->
                             <li class="relative group">
-                                <a class="flex items-center text-base hover:text-black"
+                                <a class="flex gap-[5px] items-center text-base hover:text-black"
                                     href="/services.html"><span>Services</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 6"
                                         fill="none">
@@ -164,31 +175,28 @@
                                             fill="#1F1E17" />
                                     </svg></a>
                                 <div
-                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] translate(-30% 0) rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
+                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] text-center -translate-x-14 rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
                                     <ul class="group flex-col list-none">
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/agricultureProducts.html">Agriculture
                                                 Products</a></li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/organicProducts.html">Organic Products</a>
                                         </li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/freshVegetables.html">Fresh Vegetables</a>
                                         </li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/dairyProducts.html">Dairy Products</a></li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/harvest.html">Harvest</a></li>
                                     </ul>
                                 </div>
                             </li>
+                            <!-- services li end  -->
+                            <!-- projects li start  -->
                             <li class="relative group">
-                                <a class="flex items-center text-base hover:text-black"
+                                <a class="flex gap-[5px] items-center text-base hover:text-black"
                                     href="/projects.html"><span>Projects</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 6"
                                         fill="none">
@@ -197,35 +205,31 @@
                                             fill="#1F1E17" />
                                     </svg></a>
                                 <div
-                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] translate(-30% 0) rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
+                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] text-center -translate-x-14 rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
                                     <ul class="group flex-col list-none">
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/easyHarvesting.html">Easy Harvesting</a>
                                         </li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/agricultureFarming.html">Agriculture
                                                 Farming</a></li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/ecologicalFarming.html">Ecological
                                                 Farming</a></li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/organicSolutions.html">Organic Solutions</a>
                                         </li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/freshProducts.html">Fresh Products</a></li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/healthyFood.html">Healthy Food</a></li>
                                     </ul>
                                 </div>
                             </li>
+                            <!-- projects li end  -->
+                            <!-- news li start  -->
                             <li class="relative group">
-                                <a class="flex items-center text-base hover:text-black"
+                                <a class="flex gap-[5px] items-center text-base hover:text-black"
                                     href="/news.html"><span>News</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 6"
                                         fill="none">
@@ -234,19 +238,19 @@
                                             fill="#1F1E17" />
                                     </svg></a>
                                 <div
-                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] translate(-20% 0%) rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
+                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] -translate-x-8 rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
                                     <ul class="group flex-col list-none">
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/newsGrid.html">News Grid</a></li>
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/latestNews.html">Latest News</a></li>
                                     </ul>
                                 </div>
                             </li>
+                            <!-- news li end  -->
+                            <!-- shop li start  -->
                             <li class="relative group">
-                                <a class="flex items-center text-base hover:text-black"
+                                <a class="flex gap-[5px] items-center text-base hover:text-black"
                                     href="/shop.html"><span>Shop</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 6"
                                         fill="none">
@@ -256,22 +260,176 @@
                                     </svg>
                                 </a>
                                 <div
-                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] transform(-15% 0) rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
+                                    class="hidden absolute left-0 right-0 w-max px-[20px] py-[10px] -translate-x-8 rounded-[10px] bg-[#ffffff] shadow-[0px_8px_16px_rgba(0,0,0,0.4)] group-hover:block">
                                     <ul class="group flex-col list-none">
-                                        <li class="py-[10px]"><a
-                                                class="text-black hover:text-[#edc044] font-bold text-black"
+                                        <li class="py-[10px]"><a class="text-black hover:text-[#edc044] font-bold"
                                                 href="/shopItems.html">Our Shop</a></li>
                                     </ul>
                                 </div>
                             </li>
+                            <!-- shop li end  -->
                             <li><a href="/contact.html">Contact</a></li>
                         </ul>
                     </div>
+                    <!-- nav items end  -->
+                    <div class="secondHeadIcons flex gap-[20px]">
+                        <!-- search icon start  -->
+                        <div class="searchIcon cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                fill="none">
+                                <path
+                                    d="M23.7891 23.2812L17.9531 17.4453C18.7344 16.5391 19.3477 15.5156 19.793 14.375C20.2383 13.2344 20.4609 12.0234 20.4609 10.7422C20.4609 9.32031 20.1953 7.99219 19.6641 6.75781C19.1328 5.50781 18.4023 4.42188 17.4727 3.5C16.543 2.57812 15.4531 1.84375 14.2031 1.29688C12.9688 0.765625 11.6484 0.5 10.2422 0.5C8.82031 0.5 7.49219 0.765625 6.25781 1.29688C5.00781 1.84375 3.92188 2.57812 3 3.5C2.07812 4.42188 1.34375 5.50781 0.796875 6.75781C0.265625 7.99219 0 9.32031 0 10.7422C0 12.1484 0.265625 13.4688 0.796875 14.7031C1.34375 15.9531 2.07812 17.0391 3 17.9609C3.92188 18.8828 5.00781 19.6172 6.25781 20.1641C7.49219 20.6953 8.82031 20.9609 10.2422 20.9609C11.5234 20.9609 12.7344 20.7383 13.875 20.293C15.0156 19.8477 16.0391 19.2344 16.9453 18.4531L22.7812 24.2891C22.8438 24.3516 22.9219 24.4023 23.0156 24.4414C23.1094 24.4805 23.1953 24.5 23.2734 24.5C23.3672 24.5 23.4609 24.4844 23.5547 24.4531C23.6484 24.4219 23.7266 24.3672 23.7891 24.2891C23.9297 24.1484 24 23.9805 24 23.7852C24 23.5898 23.9297 23.4219 23.7891 23.2812ZM1.42969 10.7422C1.42969 9.52344 1.66406 8.38281 2.13281 7.32031C2.58594 6.24219 3.21094 5.30469 4.00781 4.50781C4.80469 3.71094 5.74219 3.08594 6.82031 2.63281C7.88281 2.16406 9.02344 1.92969 10.2422 1.92969C11.4453 1.92969 12.5859 2.16406 13.6641 2.63281C14.7266 3.08594 15.6562 3.71094 16.4531 4.50781C17.25 5.30469 17.875 6.24219 18.3281 7.32031C18.7969 8.38281 19.0312 9.52344 19.0312 10.7422C19.0312 11.9453 18.7969 13.0859 18.3281 14.1641C17.875 15.2266 17.25 16.1562 16.4531 16.9531C15.6562 17.75 14.7266 18.3828 13.6641 18.8516C12.5859 19.3047 11.4453 19.5312 10.2422 19.5312C9.02344 19.5312 7.88281 19.3047 6.82031 18.8516C5.74219 18.3828 4.80469 17.75 4.00781 16.9531C3.21094 16.1562 2.58594 15.2266 2.13281 14.1641C1.66406 13.0859 1.42969 11.9453 1.42969 10.7422Z"
+                                    fill="#1F1E17" />
+                            </svg>
+                        </div>
+                        <!-- search icon end  -->
+
+                        <!-- cart icon start  -->
+                        <div class="cartIcon cursor-pointer relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="25" viewBox="0 0 23 25"
+                                fill="none">
+                                <path
+                                    d="M6.34881 16.2969H19.591C20.341 16.2969 20.9816 16.0312 21.5129 15.5C22.0441 14.9688 22.3097 14.3281 22.3097 13.5781V8.02344C22.3097 8.02344 22.3097 8.01953 22.3097 8.01172C22.3097 8.00391 22.3097 8 22.3097 8C22.3097 7.98438 22.3097 7.97656 22.3097 7.97656C22.3097 7.97656 22.3097 7.96875 22.3097 7.95312C22.3097 7.95312 22.3097 7.94922 22.3097 7.94141C22.3097 7.93359 22.3097 7.92969 22.3097 7.92969C22.3097 7.92969 22.3058 7.92578 22.298 7.91797C22.2902 7.91016 22.2863 7.89844 22.2863 7.88281C22.2863 7.88281 22.2863 7.87891 22.2863 7.87109C22.2863 7.86328 22.2863 7.85938 22.2863 7.85938C22.2863 7.85938 22.2863 7.85547 22.2863 7.84766C22.2863 7.83984 22.2863 7.83594 22.2863 7.83594C22.2863 7.82031 22.2824 7.8125 22.2746 7.8125C22.2668 7.8125 22.2629 7.80469 22.2629 7.78906C22.2629 7.78906 22.2629 7.78516 22.2629 7.77734C22.2629 7.76953 22.2629 7.76562 22.2629 7.76562C22.2629 7.76562 22.259 7.76172 22.2511 7.75391C22.2433 7.74609 22.2394 7.74219 22.2394 7.74219C22.2394 7.72656 22.2394 7.71875 22.2394 7.71875C22.2238 7.70312 22.216 7.69531 22.216 7.69531C22.216 7.69531 22.216 7.6875 22.216 7.67188C22.216 7.67188 22.2082 7.66406 22.1926 7.64844C22.1926 7.64844 22.1926 7.64453 22.1926 7.63672C22.1926 7.62891 22.1926 7.625 22.1926 7.625C22.1769 7.625 22.1691 7.62109 22.1691 7.61328C22.1691 7.60547 22.1691 7.60156 22.1691 7.60156C22.1691 7.60156 22.1652 7.59766 22.1574 7.58984C22.1496 7.58203 22.1457 7.57812 22.1457 7.57812C22.1457 7.57812 22.1418 7.57422 22.134 7.56641C22.1261 7.55859 22.1222 7.55469 22.1222 7.55469C22.1222 7.55469 22.1183 7.55078 22.1105 7.54297C22.1027 7.53516 22.0988 7.53125 22.0988 7.53125C22.0988 7.53125 22.0949 7.52734 22.0871 7.51953C22.0793 7.51172 22.0754 7.50781 22.0754 7.50781C22.0754 7.50781 22.0715 7.50391 22.0636 7.49609C22.0558 7.48828 22.0519 7.48438 22.0519 7.48438C22.0519 7.48438 22.048 7.48047 22.0402 7.47266C22.0324 7.46484 22.0285 7.46094 22.0285 7.46094C22.0129 7.46094 22.0051 7.46094 22.0051 7.46094C21.9894 7.46094 21.9816 7.45703 21.9816 7.44922C21.9816 7.44141 21.9738 7.4375 21.9582 7.4375C21.9582 7.4375 21.9582 7.43359 21.9582 7.42578C21.9582 7.41797 21.9504 7.41406 21.9347 7.41406C21.9347 7.41406 21.9308 7.41406 21.923 7.41406C21.9152 7.41406 21.9113 7.41406 21.9113 7.41406C21.9113 7.39844 21.9074 7.39062 21.8996 7.39062C21.8918 7.39062 21.8879 7.39062 21.8879 7.39062C21.8722 7.39062 21.8644 7.39062 21.8644 7.39062C21.8644 7.39062 21.8566 7.39062 21.841 7.39062C21.841 7.375 21.8371 7.36719 21.8293 7.36719C21.8215 7.36719 21.8176 7.36719 21.8176 7.36719C21.8176 7.36719 21.8136 7.36719 21.8058 7.36719C21.798 7.36719 21.7941 7.36719 21.7941 7.36719C21.7941 7.36719 21.7902 7.36719 21.7824 7.36719C21.7746 7.36719 21.7629 7.36719 21.7472 7.36719C21.7472 7.36719 21.7472 7.36328 21.7472 7.35547C21.7472 7.34766 21.7394 7.34375 21.7238 7.34375L4.96599 5.04688V2.70312C4.96599 2.6875 4.96599 2.67578 4.96599 2.66797C4.96599 2.66016 4.96599 2.64844 4.96599 2.63281C4.96599 2.63281 4.96599 2.625 4.96599 2.60938C4.96599 2.60938 4.96599 2.60547 4.96599 2.59766C4.96599 2.58984 4.96599 2.57812 4.96599 2.5625C4.95037 2.5625 4.94256 2.55859 4.94256 2.55078C4.94256 2.54297 4.94256 2.53906 4.94256 2.53906C4.94256 2.52344 4.94256 2.51562 4.94256 2.51562C4.94256 2.5 4.94256 2.48828 4.94256 2.48047C4.94256 2.47266 4.93474 2.46875 4.91912 2.46875C4.91912 2.46875 4.91912 2.46484 4.91912 2.45703C4.91912 2.44922 4.91912 2.44531 4.91912 2.44531C4.91912 2.42969 4.91912 2.42188 4.91912 2.42188C4.91912 2.42188 4.91131 2.41406 4.89568 2.39844C4.89568 2.39844 4.89568 2.39453 4.89568 2.38672C4.89568 2.37891 4.89568 2.375 4.89568 2.375C4.89568 2.375 4.89177 2.37109 4.88396 2.36328C4.87615 2.35547 4.87224 2.35156 4.87224 2.35156C4.87224 2.35156 4.87224 2.34766 4.87224 2.33984C4.87224 2.33203 4.86443 2.32812 4.84881 2.32812C4.84881 2.32812 4.84881 2.32422 4.84881 2.31641C4.84881 2.30859 4.84881 2.30469 4.84881 2.30469C4.84881 2.30469 4.8449 2.30078 4.83709 2.29297C4.82927 2.28516 4.82537 2.28125 4.82537 2.28125C4.82537 2.28125 4.82146 2.27734 4.81365 2.26953C4.80584 2.26172 4.80193 2.25781 4.80193 2.25781C4.80193 2.25781 4.79802 2.25391 4.79021 2.24609C4.7824 2.23828 4.77849 2.23438 4.77849 2.23438C4.77849 2.23438 4.77849 2.23047 4.77849 2.22266C4.77849 2.21484 4.77068 2.21094 4.75506 2.21094C4.75506 2.21094 4.75115 2.20703 4.74334 2.19922C4.73552 2.19141 4.73162 2.1875 4.73162 2.1875C4.73162 2.1875 4.72771 2.18359 4.7199 2.17578C4.71209 2.16797 4.70818 2.16406 4.70818 2.16406C4.70818 2.16406 4.70427 2.16406 4.69646 2.16406C4.68865 2.16406 4.68474 2.15625 4.68474 2.14062C4.66912 2.14062 4.6574 2.13672 4.64959 2.12891C4.64177 2.12109 4.63787 2.11719 4.63787 2.11719C4.62224 2.10156 4.60662 2.09375 4.59099 2.09375C4.57537 2.09375 4.56756 2.08594 4.56756 2.07031L0.934743 0.546875C0.762868 0.484375 0.590993 0.488281 0.419118 0.558594C0.247243 0.628906 0.122243 0.742188 0.0441176 0.898438C-0.0183824 1.07031 -0.0144761 1.24219 0.0558364 1.41406C0.126149 1.58594 0.247243 1.71094 0.419118 1.78906L3.63006 3.14844V17.7266C3.63006 18.4141 3.86052 19.0156 4.32146 19.5312C4.7824 20.0469 5.34099 20.3438 5.99724 20.4219C5.88787 20.625 5.79802 20.8438 5.72771 21.0781C5.6574 21.3125 5.62224 21.5547 5.62224 21.8047C5.62224 22.5547 5.88396 23.1914 6.4074 23.7148C6.93084 24.2383 7.56756 24.5 8.31756 24.5C9.05193 24.5 9.68084 24.2383 10.2043 23.7148C10.7277 23.1914 10.9894 22.5547 10.9894 21.8047C10.9894 21.5703 10.9582 21.3359 10.8957 21.1016C10.8332 20.8672 10.7472 20.6484 10.6379 20.4453H16.6144C16.5051 20.6484 16.4152 20.8672 16.3449 21.1016C16.2746 21.3359 16.2394 21.5703 16.2394 21.8047C16.2394 22.5547 16.5051 23.1914 17.0363 23.7148C17.5676 24.2383 18.2004 24.5 18.9347 24.5C19.6691 24.5 20.3019 24.2383 20.8332 23.7148C21.3644 23.1914 21.6301 22.5547 21.6301 21.8047C21.6301 21.0703 21.3644 20.4414 20.8332 19.918C20.3019 19.3945 19.6691 19.1328 18.9347 19.1328H6.34881C5.97381 19.1328 5.64959 18.9961 5.37615 18.7227C5.10271 18.4492 4.96599 18.1172 4.96599 17.7266V15.9219C5.16912 16.0469 5.38787 16.1406 5.62224 16.2031C5.85662 16.2656 6.0988 16.2969 6.34881 16.2969ZM9.67693 21.8047C9.67693 22.1797 9.54412 22.5 9.27849 22.7656C9.01287 23.0312 8.69256 23.1641 8.31756 23.1641C7.94256 23.1641 7.62224 23.0312 7.35662 22.7656C7.09099 22.5 6.95818 22.1797 6.95818 21.8047C6.95818 21.4297 7.09099 21.1094 7.35662 20.8438C7.62224 20.5781 7.94256 20.4453 8.31756 20.4453C8.69256 20.4453 9.01287 20.5781 9.27849 20.8438C9.54412 21.1094 9.67693 21.4297 9.67693 21.8047ZM20.2941 21.8047C20.2941 22.1797 20.1613 22.5 19.8957 22.7656C19.6301 23.0312 19.3097 23.1641 18.9347 23.1641C18.5597 23.1641 18.2394 23.0312 17.9738 22.7656C17.7082 22.5 17.5754 22.1797 17.5754 21.8047C17.5754 21.4297 17.7082 21.1094 17.9738 20.8438C18.2394 20.5781 18.5597 20.4453 18.9347 20.4453C19.3097 20.4453 19.6301 20.5781 19.8957 20.8438C20.1613 21.1094 20.2941 21.4297 20.2941 21.8047ZM19.591 14.9609H6.34881C5.97381 14.9609 5.64959 14.8281 5.37615 14.5625C5.10271 14.2969 4.96599 13.9688 4.96599 13.5781V6.38281L20.9738 8.58594V13.5781C20.9738 13.9688 20.8371 14.2969 20.5636 14.5625C20.2902 14.8281 19.966 14.9609 19.591 14.9609Z"
+                                    fill="#1F1E17" />
+                            </svg>
+                            <span>
+                                <svg class="cartNumberIcon absolute top-0 right-0 left-[50%] -transform-x-5"
+                                    xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 16 17"
+                                    fill="none">
+                                    <rect y="0.5" width="16" height="16" rx="8" fill="#4BAF47" />
+                                    <path
+                                        d="M8.17767 12.165C7.63867 12.165 7.162 12.0477 6.74767 11.813C6.33333 11.5747 6.007 11.2483 5.76867 10.834C5.534 10.4197 5.41667 9.943 5.41667 9.404V6.676C5.41667 6.137 5.534 5.66033 5.76867 5.246C6.007 4.83167 6.33333 4.50717 6.74767 4.2725C7.162 4.03417 7.63867 3.915 8.17767 3.915C8.71667 3.915 9.19333 4.03417 9.60767 4.2725C10.022 4.50717 10.3465 4.83167 10.5812 5.246C10.8195 5.66033 10.9387 6.137 10.9387 6.676V9.404C10.9387 9.943 10.8195 10.4197 10.5812 10.834C10.3465 11.2483 10.022 11.5747 9.60767 11.813C9.19333 12.0477 8.71667 12.165 8.17767 12.165ZM8.17767 11.065C8.471 11.065 8.73683 10.9953 8.97517 10.856C9.21717 10.713 9.40967 10.5223 9.55267 10.284C9.69567 10.042 9.76717 9.7725 9.76717 9.4755V6.5935C9.76717 6.30017 9.69567 6.03433 9.55267 5.796C9.40967 5.554 9.21717 5.36333 8.97517 5.224C8.73683 5.081 8.471 5.0095 8.17767 5.0095C7.88433 5.0095 7.61667 5.081 7.37467 5.224C7.13633 5.36333 6.94567 5.554 6.80267 5.796C6.65967 6.03433 6.58817 6.30017 6.58817 6.5935V9.4755C6.58817 9.7725 6.65967 10.042 6.80267 10.284C6.94567 10.5223 7.13633 10.713 7.37467 10.856C7.61667 10.9953 7.88433 11.065 8.17767 11.065Z"
+                                        fill="white" />
+                                </svg></span>
+                        </div>
+                        <!-- cart icon end  -->
+                    </div>
                 </div>
+                <!-- second header end here  -->
             </div>
             <!-- container section end  -->
         </nav>
     </header>
+
+    <main>
+        <!-- hero background container start  -->
+        <div class="bg-[url('../public/assets/images/heroImage.png')] flex items-center mt-2.5">
+            <div class="max-w-[1280px] px-[20px] w-full mx-auto my-[20px]">
+                <!-- hero container start  -->
+                <div class="flex items-center justify-between my-20">
+                    <!-- hero left container start  -->
+                    <div class="text-white">
+                        <p class="text-base mt-5">WELCOME TO AGRIOUS FARMING</p>
+                        <div class="flex items-end relative">
+                            <h1 class="text-8xl mt-5 font-normal font-grace">Agriculture & <br> Eco Farming</h1>
+                            <svg class="absolute bottom-8 right-12" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="60" viewBox="0 0 93 76"
+                                fill="none">
+                                <rect width="92" height="75" transform="translate(0.860352 0.5)"
+                                    fill="url(#pattern0_4138_561)" />
+                                <defs>
+                                    <pattern id="pattern0_4138_561" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_4138_561" transform="scale(0.0108696 0.0133333)" />
+                                    </pattern>
+                                    <image id="image0_4138_561" width="92" height="75" preserveAspectRatio="none"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABLCAYAAAD9POB7AAAAAXNSR0IArs4c6QAADQ9JREFUeF7lnAvQb9UYxt9H6EJ0040oIjG559KFMIlIyKULkoio1FTulZIZkkiaqUyhwqgYpKKLQlGuIboI5RIi1xCdPPbvzNpn1tln7/3fe3+X8/3PXjPffOd8e+2913rW2u963+d91lIMLLbvGxGrSfrdwEeM8jYN7bXtcyJiJ0krD33GGO8bBLjtp0bEZRFR3r+2pD+PEcC+fe4NuO17RsQfI+I+2ctulPTQvi8fY/0hgH84IvZvAGt9SX8YI5Bd+9wLcNsPiYgbWx5+s6SNu758jPU6A55MyU8jAtAnlVUl3TGp0hiv9wH8kIh4f0eQvi7paR3rjqpaJ8BtbxgRv61B5uaIeFADYicV9nzfUaHZobNdAccFrJuxL5N0lu0/RcTaNe87VtKhHdoxmioTAbe9U0R8sQYRAp+9JN1ue92I+H5E3L+m3o6SLhgNohM62gq47Q0i4ucRsWrlOX+LiGcCsiSX12z/OiIeUH2npIkDO5YBmQT4JyLilTVgHBQRJ0v6d37N9r0j4vfF4nqvyj1XS3rsWEBt62cj4La3i4hLIuJulQd8KyJeJAlga0uDTX+3pMPHDnot4LZXK0zGNwrb/bgKQP+KiGdHxBUFeP9rAfwREfGTmutrSfrLmEFvAny/iCCEr14/OiKOlvSfSaDZfn5EfKFS76uSsP2jLcsAbnuTiLg8IvC983JNMbO3bzMlVRRtHxURh1X+vqkkFuJRlqUAt32PiPhQROxTzOS7VxDBlFws6a4+SNn+QUQ8JrvnJkkM6ihLFfCnR8TpNa7dCRFxsKQ7+6KUMkN/rdy3lSQW39GVJYAnl+4DaXbnQNwSEVtK4vegYvtdEXFEdjOL7jaDHjblN+WAPzwivhYRRI1lwRN5MZFmX1NSY88ZMAIpCl/KKm2ezpTj2tj8HHBmIDMxL5gXwvdGF7CsDH0r6b9Nb7L94BS1llV2l/TpFRXYpn4tBtw26TLC8jxtRhoNF+6aPHyve5BtnnN8kdc8oA1A2/ksv0wSa8aoihJYL4kIwvhVst4fw4yvhu8tM/jqYsCOk8RXUVtsM4AXp4twMCsPWYineYRKwI+LiAOzjvwmInaR9O0unUuDhv1/CkSXpEUtXwJuJV8EvzeWxLtGUwAcouln2YJG589PfMnEiDKz4dzzHH4kfblllr83It4SEawLeD/QuqMpAE4Q8s2IWD/71LeVdEUfFGyzAO6abP4WLYA/kjrp+q6SPtPnPdNeF8C3gozKOkLYzczrRTLZPi8idoyIvxfR6hpNC61tIlhEQ6snD+jj0w5in/YDOHw3nS5dRGb7dn0WswQiGf1SDLS1JJ6zTCn4Fehe9Ij4+6NLwQE4i+UHM2QG8da2WfzKFNuJkmAca4ttbPwOhRj0mMILwp6PpgD4LhFBfpKCq7avpJP7IGD7gYX9vi5LxV0ZEfAlS9Jv+fMKvx+viKzRgZKO7/Ouaa8L4NUkcaM5aJmxULnY/tKP/0VEQMM2Ab538TV8FNpA0uemHcQ+7QfwZ6RgpLThO0i6sM9DUrIB4FZK92Gj8bFrQ33bexQKrjNQcUn6ZZ93TXtdAMeF+1FmUnaWdG6fjhX2+zVpxpa3oVPZsGnhtY1A6I2k8Nr4lz5tmJa6AE6mHb66nJ3PlUQQ07nYfnNhv9+X3UCkuXqTvtD2O1OgtX8XYqxzQ6agIoCT5YG4Wi+1d29Jp/Vpu+2qhJkIdYM6Xz65haTwYCGv7/OeFaFuyRZCKJXJXTI7eBGdSgLwbKiA7IbbCzJsk8I1xLQsVWxvGhHPk0Qqb3SlBJxw+8cp+DlDUp34pxacFPTgg5dfCPUQCK0jCVlFFXA0iBBcoyKtShBKwNGh/COJflDJbjSJAy8fkBIL3y348DUzZG+LiM0k8XuZYptszyj143nGh+CHIIiyriQSEBOL7ccXHAo0bq7Quq4gpTafePMIK+SAYxLwn/nbfpJO7IKH7YOTUD9XAEBk4V72klR0ed+016nKJD4VEbvhl0t6dJfO2T6pGKjXVeoO4mMyM0XkimIXTfqWKYJFsQvTiPljIwAeDu1H5zI1kosq4ITmpSJ2TUlVPUl1AYRixcV7VHaBWb1nsY3wk10GjDq2AXdrWMqIeHICuipEqntcmT3CnJ2ZSDg2dtWuHV3bM5f16qRub4gIzMmlkgj7G0sC6oYa4dB6km6d1HDb7GI+stgZ9/K0gyLPqU66ven6TQhR8bRI/XVd/Ie+rO99TWJO8pMIdVg8G2eLbdS1V1VkcXg5W7QlMGw/KaXZMBelgJ/gq/SUkMfhpjLLSWigJqDeWqmD8O5dTB6+/nvq4oG+QM1W/TZ9+A8BoE0hZRv/nWx9/vmzj3PzukRykmPgCR2bwLu2MCUXpW3k5zYlnzPbTnuhIGAh+UFtwPqB2H+NBlAwO3tFxNkLwRVtA5zTIrDh2zTlN22zIxk+O38OkubDq59y2ucJQ7hzyqGiqr1+NmZfigVeVaPUzcfgUnZzLO+Aa9KWE64zg0km/LM6g2wDdi7+gbSC415KF26bTBB1WZBPK/Zw0vlZL7bXSV/Pni0PZ2BOX162vRXw5EEgo4DVQ96wpCSWEVo3lx5j74lSl+z9SWYE+TM2+KC57mjidtgtjfwCJrSuXCkJDc28l4mAZ/ZzpTyQSTvcWDA3SnWwqUcWbgFeRz4w8DKYJhSz8+auJeDxtl7fguq8b2nsDHiNOeHMFLyZsnCKxB6S2Ii1uNi+Hz56/rf5nlLFhgDWjI9VuJ68GSiDqTMvZRDgSdr2Nvb7ZAsmdvlZuaeRzM4dk7yPue6pbXidz0fEwxrehSu7W7H/iI1kc1oGAZ5mL7uTSUCXheOYvjST1trG5SMhsmguBqlIJ362wtvnzWXdYUMCZrFWGzmTvpX3DgLcNpw2EWYZiCBdw3QslaVPABJNErqzlXCz9GljjqAF8HzYCEAd2En4EsJ0fhOpQhv8Kv0f//4uSQRHg4vt7Quvqy1J/r2iXYfOlSc1FPDSCyACJLBAi7iEQLJNEEIk+FaizrQzmaObIJ6GFsSfRKDs/2RALsH9JAHSd0YWKUEmCmtNvtkrbxcT56y0r6nuFI2hfVhmH2anB9nGl2UhopxZbAN8RTIzEE/oC0m3EYXOR8GMIau7UBKzs1NJ7iqJ7zYvhtwskfA+MzkuMOWNCSRvGzrDyyw94h/AZ5ZDQEF8Le8Cf3JOV/WvbRS/H2k4fiTvC9KRU9OXRc62sSSngvgFU4qE+wURgfbysN6Ap4dhA0k6cxYKNnHbBnPB4oMYCLuLL47dxjRASOEyEhnSBmYSf+ffs8EYsgBidtC/XDBp53QygTgBKIlLuUgdoJganos3Q2DFeQMEf/SPlCGH9cDrEJtAWRMUIgPk2UgIbxkCOAsmLiAPQ9JWcuEENV9JJwcxA2gYekMSyfjo5bmGeCBLeHbbNBLPhB8SD+x0434GBBP1xDQQzBYGg3WjKYKsA4mZxckXSDlai+3dEZg2nPvSdi/9AUtmdZXHx9wB9mKx1RDAkRmzkKAfx5NgpPnUru3CgU/qdNP1tFODwWaWMSDsisO/xsshgc0XwkDwbwaZzrMoMkhMDLwfFvfGnXblu4v4ATYTPoYvcCaFTWRYghtKwdMQwJE300mSzlfN1E2bSW+q9yY3lKxD7TZH26jBOrmV6chA1qXqVsquTf5OYU7fXtDb5SayxfcNARzXbrHNnWsiqmvP5rpekvJxOgb2uYtrixl5rSTM2VKlN+Bz3bmF+vyUDgQveHy8tKacK9T0IZJqD9RcEIAXvDoJ6157iuZ7YIpdGyzgLyzWrjelyLjaBDwyYpMj2nz2hQI4HgrpsvMk4d0smJKCFlxfEih4ZnVuI87DKQV9XT0bZpl+LAjAaVU65oN9QahuG/cHzedI2MblJRIlOMqlfHkz8NI4tRQHYhkt5YK24SmoQpuCP09wgWyaPfmzyme0DVoK+fHCkPDhkzf5/ETZJDhO6MPlLJgZnoOQyCX4dmYOARXgc9oFKiui1FkvyXQwo98Br19zFGD5Tvx4WMwDJNUdpNbatgUJeNniFHKz6kPnUlj5EY5CB18kCdXujEqSWyPdIKJ9dYvconw/Bx6fPzT7v6ABz4AnouQYqOqJcHgGHLPKTmqYQujbO8uvIEkzWOT426J0PCCPJVqGN4HRJJmMhrF6PmM+kJxFQCCDZhK6YnCZCsAz4FF6QUi9tHK2C+F+3hdUXCi3IJTgXgjUiDChA+DCoUrhaiYVJCKnJPaxk3x70gOnCnA6Qzae0N32E4pUHJuzSHTM5qn8DA6pOEzXqRxmPAnEPtenDvBq52yja0dohByDrYhQs0SB1QOK63Dhy8CV4x48IUJyOKLLu5BcfYAu60494DUDwDEkiD0JUuDpyT5hRthssNieFxsO2OyFxpxFGHKJwAVm79a53kSwwgFeO42TbDnxIYDPrOaHpPTEA9SGzOSme/4P/QJahFwVJHQAAAAASUVORK5CYII=" />
+                                </defs>
+                            </svg>
+                        </div>
+                        <p class="text-base mt-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                            tellus,<br>
+                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </p>
+                        <!-- button and leaf image start  -->
+                        <div class="flex gap-5 items-center mt-10">
+                            <div>
+                                <button
+                                    class="border-none text-white py-4 px-5 text-base font-semibold cursor-pointer bg-[#4baf47] rounded-xl hover:bg-[#b99f57]"
+                                    onclick="location.href='about.html'" type="button">Discover
+                                    More
+                                </button>
+                            </div>
+                            <div class="heroLeafImage">
+                                <img src="../public/assets/images/heroCropIcon.png" alt="Hero Crop | Leaf Image">
+                            </div>
+                        </div>
+                        <!-- button and leaf image end  -->
+                    </div>
+                    <!-- hero left container end  -->
+                    <!-- hero right container start  -->
+                    <div class="heroCircles">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="60" viewBox="0 0 90 67" fill="none">
+                            <g opacity="0.3">
+                                <rect x="1" y="1.5" width="64" height="64" rx="32" stroke="white" stroke-width="2" />
+                                <g clip-path="url(#clip0_4138_566)">
+                                    <path
+                                        d="M86.2562 63.9609H13.7308L25.7185 63.8242C26.4035 63.8171 26.746 63.8081 26.746 63.7974C26.746 63.7866 26.4035 63.7773 25.7185 63.7695C25.0905 63.7617 24.3056 63.7578 23.3637 63.7578C22.4219 63.7578 21.6084 63.7617 20.9234 63.7695L3.02751 63.9727C2.3425 63.9798 2 63.9889 2 64C2 64.0111 2.3425 64.0202 3.02751 64.0273L20.9234 64.2305C21.6084 64.2383 22.4219 64.2422 23.3637 64.2422C24.3056 64.2422 25.0905 64.2383 25.7185 64.2305C26.4035 64.2227 26.746 64.2134 26.746 64.2026C26.746 64.1919 26.4035 64.1829 25.7185 64.1758L13.7308 64.0391H86.2562C87.2266 64.0391 88.0401 64.0353 88.6965 64.0278C89.353 64.0203 89.6812 64.0111 89.6812 64C89.6812 63.9889 89.353 63.9797 88.6965 63.9722C88.0401 63.9647 87.2266 63.9609 86.2562 63.9609Z"
+                                        fill="white" />
+                                </g>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_4138_566">
+                                    <rect width="87.6812" height="1" fill="white" transform="matrix(1 0 0 -1 2 64.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="60" viewBox="0 0 90 66" fill="none">
+                            <rect x="1" y="1" width="64" height="64" rx="32" stroke="white" stroke-width="2" />
+                            <g clip-path="url(#clip0_4138_1508)">
+                                <path
+                                    d="M88.6537 63.4727L70.7579 63.2695C70.0728 63.2617 69.2594 63.2578 68.3175 63.2578C67.3756 63.2578 66.5907 63.2617 65.9628 63.2695C65.2778 63.2773 64.9353 63.2866 64.9353 63.2974C64.9353 63.3081 65.2778 63.3171 65.9628 63.3242L77.9505 63.4609H5.42505C4.45462 63.4609 3.64117 63.4647 2.9847 63.4722C2.32823 63.4797 2 63.4889 2 63.5C2 63.5111 2.32823 63.5203 2.9847 63.5278C3.64117 63.5353 4.45462 63.5391 5.42505 63.5391H77.9505L65.9628 63.6758C65.2778 63.6829 64.9353 63.6919 64.9353 63.7026C64.9353 63.7134 65.2778 63.7227 65.9628 63.7305C66.5907 63.7383 67.3756 63.7422 68.3175 63.7422C69.2594 63.7422 70.0728 63.7383 70.7579 63.7305L88.6537 63.5273C89.3387 63.5202 89.6812 63.5111 89.6812 63.5C89.6812 63.4889 89.3387 63.4798 88.6537 63.4727Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_4138_1508">
+                                    <rect width="87.6812" height="1" fill="white" transform="matrix(1 0 0 -1 2 64)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <!-- hero right container end -->
+                </div>
+                <!-- hero container end  -->
+            </div>
+        </div>
+        <!-- hero background container end  -->
+
+        <!-- hero boxes section inside hero container start  -->
+        <div class="max-w-[1280px] px-[20px] w-full mx-auto my-[20px]">
+            <div class="w-full flex justify-between relative bottom-14">
+                <!-- hero box first  -->
+                <div class="px-14 w-[25%] h-52 text-center rounded-xl bg-white shadow-[0px_8px_16px_rgba(0,0,0,0.4)]">
+                    <p class="mt-5 text-[#eec044] font-grace">Feature 01</p>
+                    <h4 class="mt-2.5 text-[#1f1e17] font-extrabold">We're using a <br> new technology</h4>
+                    <div class="mt-2.5 flex justify-center">
+                        <img class="w-24 h-20" src="../public/assets/images/heroBoxImage1.png" alt="Hero Box Image 1">
+                    </div>
+                </div>
+
+                <!-- hero box second  -->
+                <div class="px-14 w-[25%] h-52 text-center rounded-xl bg-white shadow-[0px_8px_16px_rgba(0,0,0,0.4)]">
+                    <p class="mt-5 text-[#eec044] font-grace">Feature 02</p>
+                    <h4 class="mt-2.5 text-[#1f1e17] font-extrabold">Good in smart <br>
+                        organic services</h4>
+                    <div class="mt-2.5 flex justify-center">
+                        <img class="w-24 h-20" src="../public/assets/images/heroBoxImage2.png" alt="">
+                    </div>
+                </div>
+
+                <!-- hero box third  -->
+                <div class="px-14 w-[25%] h-52 text-center rounded-xl bg-white shadow-[0px_8px_16px_rgba(0,0,0,0.4)]">
+                    <p class="mt-5 text-[#eec044] font-grace">Feature 03</p>
+                    <h4 class="mt-2.5 text-[#1f1e17] font-extrabold">Reforming <br>
+                        in the systems</h4>
+                    <div class="mt-2.5 flex justify-center">
+                        <img class="w-24 h-20" src="../public/assets/images/heroBoxImage3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- hero boxes section inside hero container start  -->
+    </main>
 </body>
 
 </html>
