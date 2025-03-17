@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
 /* @font-face {
-  font-family: "grace";
-  src: url("../public/fonts/Covered_By_Your_Grace/CoveredByYourGrace-Regular.ttf")
-    format("ttf");
+  font-family: "poppins";
+  src: url("../public/fonts/Poppins/Poppins-Bold.ttf") format(".ttf");
 } */
 
 .font-grace {
