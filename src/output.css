@@ -21,6 +21,8 @@
     --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
@@ -204,17 +206,38 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-14 {
+    top: calc(var(--spacing) * 14);
+  }
   .top-20 {
     top: calc(var(--spacing) * 20);
   }
   .top-\[85px\] {
     top: 85px;
   }
+  .top-\[140px\] {
+    top: 140px;
+  }
+  .top-\[230px\] {
+    top: 230px;
+  }
+  .top-\[240px\] {
+    top: 240px;
+  }
   .right-0 {
     right: calc(var(--spacing) * 0);
   }
+  .right-1 {
+    right: calc(var(--spacing) * 1);
+  }
   .right-8 {
     right: calc(var(--spacing) * 8);
+  }
+  .right-12 {
+    right: calc(var(--spacing) * 12);
+  }
+  .right-14 {
+    right: calc(var(--spacing) * 14);
   }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
@@ -237,11 +260,35 @@
   .left-9 {
     left: calc(var(--spacing) * 9);
   }
+  .left-14 {
+    left: calc(var(--spacing) * 14);
+  }
   .left-24 {
     left: calc(var(--spacing) * 24);
   }
+  .left-\[14\] {
+    left: 14;
+  }
   .left-\[50\%\] {
     left: 50%;
+  }
+  .left-\[50\] {
+    left: 50;
+  }
+  .left-\[130px\] {
+    left: 130px;
+  }
+  .left-\[135px\] {
+    left: 135px;
+  }
+  .left-\[140px\] {
+    left: 140px;
+  }
+  .left-\[150px\] {
+    left: 150px;
+  }
+  .left-\[300px\] {
+    left: 300px;
   }
   .z-1 {
     z-index: 1;
@@ -267,6 +314,9 @@
   .m-\[50px\] {
     margin: 50px;
   }
+  .mx-\[60px\] {
+    margin-inline: 60px;
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -278,6 +328,9 @@
   }
   .my-\[20px\] {
     margin-block: 20px;
+  }
+  .my-\[30px\] {
+    margin-block: 30px;
   }
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
@@ -348,6 +401,9 @@
   .h-\[30px\] {
     height: 30px;
   }
+  .h-\[30vh\] {
+    height: 30vh;
+  }
   .h-\[40vh\] {
     height: 40vh;
   }
@@ -360,8 +416,14 @@
   .h-\[100px\] {
     height: 100px;
   }
+  .h-\[230px\] {
+    height: 230px;
+  }
   .h-\[350px\] {
     height: 350px;
+  }
+  .h-\[450px\] {
+    height: 450px;
   }
   .h-\[600\] {
     height: 600;
@@ -536,6 +598,19 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
+  .rounded-t {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .rounded-tl {
+    border-top-left-radius: 0.25rem;
+  }
+  .rounded-tl-xl {
+    border-top-left-radius: var(--radius-xl);
+  }
+  .rounded-tr-xl {
+    border-top-right-radius: var(--radius-xl);
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -543,6 +618,18 @@
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
+  }
+  .border-t {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+  .border-r {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 1px;
+  }
+  .border-r-4 {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 4px;
   }
   .border-dashed {
     --tw-border-style: dashed;
@@ -630,6 +717,9 @@
   .p-\[30px\] {
     padding: 30px;
   }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -688,6 +778,10 @@
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
@@ -724,8 +818,15 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
+  .text-\[26px\] {
+    font-size: 26px;
+  }
   .text-\[40px\] {
     font-size: 40px;
+  }
+  .font-\[26px\] {
+    --tw-font-weight: 26px;
+    font-weight: 26px;
   }
   .font-\[40px\] {
     --tw-font-weight: 40px;
@@ -768,6 +869,12 @@
   }
   .text-\[\#eec044\] {
     color: #eec044;
+  }
+  .text-\[\#eec\] {
+    color: #eec;
+  }
+  .text-\[3xl\] {
+    color: 3xl;
   }
   .text-\[4xl\] {
     color: 4xl;
